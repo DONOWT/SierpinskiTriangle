@@ -13,7 +13,7 @@ public void sierpinski(int x, int y, int len) {
   }
 }
 void draw() {
-  if (animation > 2048) {noLoop();}
+  if (animation > 4048) {noLoop();}
   animation = animation +5;
   fill(animation/5,100,100);
   sierpinski(0, animation, animation);
